@@ -1,8 +1,8 @@
 /*Fossa CSS Framework*/
 body{margin: 0; padding: 0; color: #000000;}
 a {color: #ffffff; text-decoration: none;}
-a:hover {color: #00ff00;}
-.wrapper {margin:0 auto; width: 1680px; overflow: hidden; background: #e8e8e8;} 
+a:hover {color: #9FC945;}
+.wrapper {margin:0 auto; width: 1680px; overflow: hidden; } 
 #header {width: 240px; height: 800px; margin: 0 10px 0 10px; float: left; }
 #menu {width: 160px; height: 800px; margin: 0 0 0 0; float: left;
 background-image: linear-gradient(bottom, rgb(56,56,56) 0%, rgb(74,74,74) 50%, rgb(56,56,56) 100%);
@@ -30,7 +30,7 @@ background-image: -webkit-gradient(
 @media (max-width: 1680px) { 
 		.wrapper {width: 1460px;} 		
 		#header {width: 220px; height: 960px;} 
-		#menu {width: 960px; height: 60px;}
+		#menu {width: 960px; height: 60px; background: #565656;}
 		#content {width: 940px; height: 900px;}
 		#sidebar{width: 240px; height: 900px;}
 		#footer{width: 1440px; height: 240px;} 
@@ -68,7 +68,7 @@ background-image: -webkit-gradient(
 		#footer{width: 100%; height: 240px;}
 }
 @media screen and (max-device-width: 800px) {
-    	body {background: pink;}
+    	/*body {background: pink;}*/
 		.wrapper {width: 100%;}
 		#header {width: 100%; height: 140px;} 
 		#menu {width: 100%; height: 40px;}
